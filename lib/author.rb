@@ -8,4 +8,8 @@ class Author
   def posts 
     Post.all
   end
+  
+  def add_post(post_name)
+    post_name.artist = self
+  end
 end
