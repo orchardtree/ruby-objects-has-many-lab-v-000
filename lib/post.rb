@@ -1,4 +1,4 @@
-class Posts 
+class Post
   @@all = []
   
   def self.all 
